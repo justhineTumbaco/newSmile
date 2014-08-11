@@ -1,0 +1,17 @@
+.sesion{
+	background-color: rgba(81, 129, 192, 0.1);
+	padding: 100px;
+}
+
+#form-sesion{
+	padding-left: 400px;
+	padding-right : 400px;
+}
+
+#head-sesion{
+	text-align: center;
+}
+
+.link:hover{
+	text-decoration: none;
+}

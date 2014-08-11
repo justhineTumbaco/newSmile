@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-
+get 'usuarios/welcome'
 resources :usuarios
 
 
@@ -9,7 +9,7 @@ resources :usuarios
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-root 'usuarios#index'
+root 'usuarios#welcome'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
